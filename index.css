@@ -1,11 +1,26 @@
 h1 {color: #ffd698;
 
+    border: 2px solid #ffd698;
+    padding: 1em;
+    background-color: black;
+
 }
 main h3  {color: #ffd698;
 
 }
-li,p {font-style: italic;}
+li,p {font-style: italic;
+    color: white;
+    border: 1px solid #ffd698;
+    background-color: black;
+    padding: 1em;
+}
 
 *[href] {font-weight: bold;}
 
 #peoples {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+
+body {
+        margin: 2em;
+    background-image: linear-gradient(to bottom, #ffd698 0%, #ffd698 20%, #ffd698 50%, hsl(35, 100%, 91%) 80%, #f4eee6 100%);
+
+}
