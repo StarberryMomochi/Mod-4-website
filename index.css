@@ -12,6 +12,7 @@ main h3 {
 
 }
 
+/* Navagation */
 nav li,
 p {
     font-style: italic;
@@ -19,6 +20,12 @@ p {
     border: 1px solid #ffd698;
     background-color: black;
     padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+
 }
 
 *[href] {
@@ -36,15 +43,39 @@ body {
 }
 
 a {
-color: white;
-/*The Noelle Paragraphs */
+    color: white;
+
 }
+
+/*The Noelle Paragraphs */
 section.backstory {
-    width: 300px;
+    width: 30%;
     float: left;
 }
+
 section.storyline {
-    width: 500px;
+    width: 50%;
     float: left;
     font-size: larger;
+}
+
+#Noelle {
+    width: 100%;
+    max-width: 828px;
+
+}
+
+/* Changes layout for screen width */
+@media only screen and (max-width: 600px) {
+    section.backstory {
+        width: 100%;
+        float: none;
+    }
+
+    section.storyline {
+        width: 100%;
+        float: none;
+
+    }
+
 }
