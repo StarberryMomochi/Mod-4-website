@@ -20,6 +20,7 @@ p {
     border: 1px solid #ffd698;
     background-color: black;
     padding: 1em;
+    list-style-type: none;
 }
 
 nav ul {
@@ -39,7 +40,7 @@ nav ul {
 body {
     margin: 2em;
     background-image: linear-gradient(to bottom, #ffd698 0%, #ffd698 20%, #ffd698 50%, hsl(35, 100%, 91%) 80%, #f4eee6 100%);
-
+    font-family: "sono", "monospace";
 }
 
 a {
